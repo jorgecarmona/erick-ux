@@ -3,7 +3,7 @@
   width: 946px;
   font-family: sans-serif;
 }
-.wrapper section {
+.wrapper section, footer {
   border: 1px solid #979797;
 }
 h1 {
@@ -148,8 +148,7 @@ h1 {
 }
 footer {
   background: #CFCFCF;
-  padding: 40px;
-  width: 100%;
+  padding: 40px 0 40px 40px;
 }
 .footer-nav a {
   margin-right: 40px;
