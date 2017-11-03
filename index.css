@@ -11,7 +11,11 @@ h1 {
   background-image: url("https://i.imgur.com/QWJnNnz.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+  opacity: 0.6;
   width: 100%;
+}
+.heart {
+  width: 20px;
 }
 .nav {
   text-align: right;
@@ -88,6 +92,7 @@ h1 {
   margin-bottom: 20px;
   font-size: 20px;
   font-family: times;
+  width: 285px;
 }
 .get-app-btn {
   width: 100px;
@@ -98,4 +103,54 @@ h1 {
   padding: 5px 10px;
   text-decoration: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.columns {
+  text-align: center;
+  -moz-column-count: 3;
+  -moz-columns: 3;
+  -webkit-columns: 3;
+  columns: 3;
+  background: url("https://i.imgur.com/lJuGDFS.png");
+}
+.columns img {
+  height: 250px;
+  margin: 20px 0;
+}
+.columns p {
+  font-family: times;
+}
+.newsletter {
+  padding: 40px;
+  -moz-column-count: 2;
+  -moz-columns: 2;
+  -webkit-columns: 2;
+}
+.newsletter h2 {
+  text-align: right;
+  margin-right: 60px;
+}
+.newsletter input {
+  font-size: 16px;
+  padding: 10px;
+  text-align: left;
+}
+.submit {
+  background: #3C3838;
+  border: 1px solid #000;
+  width: 140px;
+  height: 41px;
+  margin-left: -4px;
+  font-weight: bold;
+  color: #fff;
+}
+footer {
+  background: #CFCFCF;
+  padding: 40px;
+  width: 100%;
+}
+.footer-nav a {
+  margin-right: 40px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
